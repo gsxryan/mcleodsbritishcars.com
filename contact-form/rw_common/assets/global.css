@@ -1,0 +1,10 @@
+a#logo { /* Total Width and Height of Logo in PX = 84px by 86px */
+ margin-top: 23px; /* Space in PX between Logo and top of page */
+ background-size: 59px 39px; /* Total Width in PX ÷ 2 / Total Height in PX ÷ 2 */
+ width: 59px; /* Total Width in PX ÷ 2 */
+ height: 39px; /* Total Height in PX ÷ 2 */
+}
+
+#bttmHeader h2#slogan span {
+	font-style: italic;
+}

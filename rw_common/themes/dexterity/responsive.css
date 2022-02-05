@@ -1,0 +1,141 @@
+/* #Media Queries
+================================================== */
+
+  /* Tablet Portrait size to standard 960 (devices and browsers) */
+  @media only screen and (min-width: 960px) and (max-width: 1399px) {
+
+#banner .container { 
+	min-width: 100%;
+}
+
+  }
+
+
+@media only screen and (min-width: 959px) {
+
+header {
+}
+
+.skiptonav, #menu {
+	display: none;
+}
+
+	}
+
+
+  /* Tablet Portrait size to standard 960 (devices and browsers) */
+  @media only screen and (min-width: 768px) and (max-width: 1199px) {
+
+header {
+}
+
+  }
+
+  /* All Mobile Sizes (devices and browser) */
+   @media only screen and (min-width: 480px) and (max-width: 768px) {
+
+body {
+	overflow-x: hidden;
+}
+
+.cbp-af-header nav {
+	display: none;
+}
+
+.cbp-af-header, #navi-wrap {
+	display: block;
+}
+
+header, .cbp-af-header {
+	position: relative !important;
+}
+
+.cbp-af-header h1#title {
+}
+
+.bx-wrapper .bx-prev, .bx-wrapper .bx-next {
+	background: none;
+}
+
+#bttmHeader {
+	position: relative;
+	height: 160px !important;
+}
+
+#bttmHeader .container {
+	width: 100%;
+}
+
+
+#bttmHeader h2#slogan {
+	font-size: 16px;
+}
+
+.scroll, .scroll .fa {
+	display: none;
+}
+
+.bx-pager-link {
+    display: none !important;
+}
+
+  }
+
+  /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+  @media only screen and (max-width: 479px) {
+
+body {
+	overflow-x: hidden;
+}
+
+.cbp-af-header nav {
+	display: none;
+}
+
+.cbp-af-header, #navi-wrap {
+	display: block;
+}
+
+header, .cbp-af-header {
+	position: relative !important;
+}
+
+.cbp-af-header h1#title {
+}
+
+.bx-wrapper .bx-prev, .bx-wrapper .bx-next {
+	background: none;
+}
+
+#bttmHeader {
+	position: relative !important;
+	height: 160px;
+	margin-top: 0 !important;
+}
+
+#bttmHeader .container {
+	width: 100%;
+	max-height: 160px;
+}
+
+#bttmHeader h1#title {
+	padding-top: 30px;
+}
+
+#bttmHeader h2#slogan {
+	font-size: 16px;
+}
+
+.scroll, .scroll .fa {
+	display: none;
+}
+
+#extraContainer5 #socialIcons {
+	padding-top: 6px;
+}
+
+.bx-pager-link {
+    display: none !important;
+}
+
+  }
